@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <nav style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
+        <nav className='navigation-brand'>
             <Link to="/" style={{ marginRight: '15px' }}>Home</Link>
             <Link to="/services" style={{ marginRight: '15px' }}>Services</Link>
             <Link to="/industries" style={{ marginRight: '15px' }}>Industries</Link>

@@ -1,3 +1,19 @@
+body {
+  margin: 0;
+}
+
+nav.navigation-brand {
+  display: flex;
+  justify-content: center;
+}
+
+nav.navigation-brand a {
+  text-decoration: unset;
+  color: #275559;
+  font-weight: 600;
+  padding: 1rem;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
